@@ -1,7 +1,13 @@
 package main
 
-import "fmt"
+import (
+    "fmt"
+)
+
+func add(x,y int)int{
+	return x+y
+}
 
 func main() {
-	fmt.Println("Hello, 世界")
+    fmt.Println(add(3,4))
 }
